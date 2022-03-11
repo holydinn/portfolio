@@ -1,0 +1,71 @@
+body{
+  position: absolute;
+  width: 1445px;
+  height: 4759px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+
+  background: #FFFFFF;
+}
+header div.wrapper{
+  height: 768px;
+  width: 943.61px;
+  margin-left: 250px;
+  top: 0px;
+}
+.nav{
+  height: 47px;
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 33px 0px 0px 0px;
+  margin: 0px;
+  border-bottom: 1px solid #828282;
+}
+.nav>li>a{
+  text-decoration: none;
+  color: #828282;
+  font-size: 18px;
+  line-height: 22px;
+}
+.nav a:hover{
+  color: #070707;
+}
+.about{
+  color: #070707;
+}
+#block{
+  display: inline-flex;
+  justify-content: space-between;
+
+}
+.name{
+  height: 118.17px;
+  width: 137.51px;
+  margin-top: 39.69px;
+  font-weight:bold;
+  font-size: 47.3392px;
+  line-height: 59px;
+}
+.job{
+  height: 44.06px;
+  width: 165.65px;
+  font-size: 18px;
+  line-height: 21.83px;
+}
+.lang{
+  color: #070707;
+  height: 20.06px;
+  width: 75px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.lang span{
+  color:  #828282;
+}
