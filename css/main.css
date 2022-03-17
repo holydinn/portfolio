@@ -23,8 +23,8 @@ p {
 }
 
 .header {
-  position: fixed;
-  z-index: auto;
+  /* position: fixed;
+  z-index: auto; */
   top: 0;
   width: 100%;
   background: #fff;
@@ -60,7 +60,7 @@ p {
 }
 
 .wrapper {
-  margin-top: 88px;
+  /* margin-top: 88px; */
   border-top: 1px solid #828282;
 }
 
