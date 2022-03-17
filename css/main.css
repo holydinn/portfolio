@@ -265,7 +265,7 @@ p {
 /* 376px-576px */
 @media screen and (max-width:576px) {
   .body2 {
-    max-height: fit-content;
+    max-height: 1248px;
   }
 
   .container {
@@ -304,21 +304,17 @@ p {
   }
 
   .lang2 {
-    display: block;
-    transform: rotate(90deg);
     color: #070707;
     font-size: 34px;
-    height: 170px;
-    width: 170px;
-    top: 69px;
-    margin: 0px 0 50px 150px;
+    margin: 150px -28px 57px 0;
     position: relative;
   }
 
   .lang2 p {
     display: block;
+    transform: rotate(90deg);
     position: absolute;
-    top: 0;
+    right: 0;
     margin: 0;
   }
 
