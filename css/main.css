@@ -297,9 +297,12 @@ p {
     padding-top: 68px;
   }
 
-  /* .close {
+  .close {
+    align-items: flex-end;
     height: 22px;
-  } */
+    padding-top: 86px;
+  }
+
   .lang2 {
     display: block;
     transform: rotate(90deg);
@@ -307,10 +310,9 @@ p {
     font-size: 34px;
     height: 170px;
     width: 170px;
-    margin: 150px 0 57px 130px;
+    top: 69px;
+    margin: 0px 0 50px 150px;
     position: relative;
-    top: 0;
-    right: 28px;
   }
 
   .lang2 p {
