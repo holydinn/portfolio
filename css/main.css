@@ -274,7 +274,7 @@ p {
 
 /* 376px-576px */
 @media screen and (max-width:576px) {
-  body .sidebar.active{
+  .hidden{
     overflow: hidden;
   }
   .sidebar.active{
