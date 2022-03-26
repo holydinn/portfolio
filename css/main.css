@@ -103,7 +103,11 @@ p {
   margin: 0;
 }
 
-.lang span {
+.lang-choice {
+  color: #828282;
+  text-decoration: none;
+}
+.lang-choice:visited{
   color: #828282;
 }
 
@@ -204,6 +208,9 @@ p {
   font-weight: 700;
   margin: 29px auto 0;
   transition: all 0.5s ease;
+}
+.btn.rus{
+  width: 280px;
 }
 
 .btn:hover {
