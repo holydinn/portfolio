@@ -11,7 +11,6 @@ for(item of navSidebar){
 }
 
 menuBtn.addEventListener('click', ()=>{
-    console.log('1');
     sidebar.classList.add("active");
 })
 
