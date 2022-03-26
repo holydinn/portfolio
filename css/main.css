@@ -122,6 +122,9 @@ p {
 .home {
   margin-bottom: 104px;
 }
+.sidebar{
+  display: none;
+}
 
 .aboutme {
   background: #F6F6F6;
@@ -271,8 +274,14 @@ p {
 
 /* 376px-576px */
 @media screen and (max-width:576px) {
-  .body2 {
-    max-height: 1248px;
+  .sidebar.active{
+    display: block;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #fff;
   }
 
   .container {
@@ -302,6 +311,7 @@ p {
     justify-content: flex-end;
     height: 20px;
     padding-top: 68px;
+    align-items: flex-end;
   }
 
   .close {
@@ -323,10 +333,6 @@ p {
     position: absolute;
     right: 0;
     margin: 0;
-  }
-
-  .lang2 span {
-    color: #828282;
   }
 
   .wrapper {
