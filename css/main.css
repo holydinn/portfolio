@@ -287,7 +287,11 @@ p {
     background-color: #fff;
     overflow-y: scroll;
   }
-
+  .wrapper-menu{
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
   .container {
     width: 85%;
   }
@@ -327,14 +331,14 @@ p {
   .lang2 {
     color: #070707;
     font-size: 34px;
-    margin: 150px -28px 57px 0;
-    position: relative;
+    bottom: 100px;
+    right: 0px;
+    position: absolute;
   }
 
   .lang2 p {
     display: block;
     transform: rotate(90deg);
-    position: absolute;
     right: 0;
     margin: 0;
   }
